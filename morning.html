@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <h1>Good Morning ::Enter Child's Name::!</h1>
+    <div class="prompt">
+        <em>Let's get ready for the day, <b>click the button</b> to check off another task and <b>when you finish</b>, you can do whatever you want until Daddy or Mommy are ready to leave. </em>
+    </div>
+    
+    <br>
+    <section class="main">
+        <div class="task taskShirt">
+            <button class="button-submit" id="shirt-button" onclick="finished('shirt-button', 'images/shirt.jpg')"><img src="images/shirt.jpg" class="img-button"></button>
+        </div>
+
+
+        <div class="task taskBottoms">
+            <button class="button-submit" id="bottoms-button" onclick="finished('bottoms-button', 'images/bottoms.jpg')"><img src="images/bottoms.jpg" class="img-button"></button>
+        </div>
+        <div class="task taskShoes">
+            <button class="button-submit" id="shoes-button" onclick="finished('shoes-button', 'images/shoes.jpg')"><img src="images/shoes.jpg" class="img-button"></button>
+        </div>
+        <div class="task taskTeeth">
+            <button class="button-submit" id="teeth-button" onclick="finished('teeth-button', 'images/teeth.jpg')"><img src="images/teeth.jpg" class="img-button"></button>
+        </div>
+        <div class="task taskHair">
+            <button class="button-submit" id="hair-button" onclick="finished('hair-button', 'images/hair.jpg')"><img src="images/hair.jpg" class="img-button"></button>
+        </div>
+        <div class="task taskBackpack">
+            <button class="button-submit" id="backpack-button" onclick="finished('backpack-button', 'images/backpack.jpg')"><img src="images/backpack.jpg" class="img-button"></button>
+        </div>
+        <div class="task taskWater">
+            <button class="button-submit" id="water-button" onclick="finished('water-button', 'images/water.jpg')"><img src="images/water.jpg" class="img-button"></button>
+        </div>
+        <div class="task taskBreakfast">
+            <button class="button-submit" id="breakfast-button" onclick="finished('breakfast-button', 'images/breakfast.jpg')"><img src="images/breakfast.jpg" class="img-button"></button>
+        </div>
+    
+    </section>
+    <br><br>
+    <a href="index.html">
+        <button id="home-button">
+            Home
+        </button>
+    </a>
+
+    
+</body>
+</html>

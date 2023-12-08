@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to right, rgb(177, 128, 136), rgb(201, 112, 236));
+}
+
+.mainFrame {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+h1, 
+p {
+    margin: auto;
+    text-align: center;
+}
+
+h4 {
+    margin: auto;
+    text-align: center;
+}
+
+
+button:hover {
+    opacity: 0.7;
+}
